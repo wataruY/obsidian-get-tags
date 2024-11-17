@@ -1,0 +1,20 @@
+[package]
+name = "obsidian-get-tags"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+clap = { version = "4.5.20", features = ["derive", "unicode"] }
+dotenvy = { version = "0.15.7", features = ["clap", "cli"] }
+env_logger = "0.11.5"
+expanduser = "1.2.2"
+frontmatter = "0.4.0"
+log = { version = "0.4.22", features = [] }
+rayon = "1.10.0"
+thiserror = "2.0.1"
+walkdir = "2.5.0"
+yaml-rust = "0.4.5"
+
+[dev-dependencies]
+dotenvy = { version = "0.15.7", features = ["clap", "cli"] }
